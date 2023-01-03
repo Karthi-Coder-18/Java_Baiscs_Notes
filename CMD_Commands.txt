@@ -1,0 +1,213 @@
+SHORTCUTS FOR WINDOWS 
+
+1. Windows key + S = Opens Search box. 
+
+2. ipconfig - To check the IP Address of your system 
+
+3. ipconfig /all - To check the DNS and other connections 
+
+4. ipconfig /all | findstr DNS  = This will provide only information about DNS server. 
+
+                                  findstr - can be used to find any info regarding network connected to your computer.
+
+
+5. Commands to renew IP ADDRESS on your System 
+
+    ipconfig /release 
+
+    ipconfig /renew 
+
+
+6.  ipconfig /displaydns | clip  = This command will copy the content to the clipborad. 
+
+7.  ipconfig /flushdns  = This command will delete DNS resolver Cache. 
+
+
+8. nslookup websitelink = This command will tell us what DNS server that website is using & what IP Address it gave us. 
+
+
+
+9. cls = This command will clean the CMD screen. 
+
+10. getmac /v = Provides the MAC address of the Respective device. 
+
+
+11. powercfg /energy  = Provides the Information about your device battery. 
+
+
+
+12. powercfg /batteryreport  = Will save the Report of your battery performence. 
+
+
+13. assoc  =  Provides the information about which file is associated with what kind of File type. 
+
+
+14. assoc mp4=VLC.vlc  = This will change the file type for mp4 to VLC. 
+
+15. chkdsk /f  = This will check your disc and see if there is any errors and fix them if required. 
+
+
+16. chkdsk /r  = 
+
+
+17. sfc /scannnow = this will check your system files and repair them if required. 
+
+
+18. DISM ( deployment image servicing & Management ) 
+   
+    DISM /Online /Cleanup-Image /CheckHealth /ScanHealth /RestoreHealth - CMD tool which cleans up your system image. 
+
+
+19. tasklist | findstr script  = Finds the tasks runnning 
+  
+    taskkill /f /pid 20184  = Here PID is specific id of the task which we want to end. 
+
+
+20. netsh wlan show wlanreport - This will provide a complete report about our Wlan wireless connection 
+
+
+21. netsh interface show interface  = 
+
+
+22. netsh interface ip show address | findstr "IP Address"  = Will show up the Ip address of the device which we are using. 
+
+
+23. netsh interface ip show dnsservers  = Shows the details of DNS servers 
+
+
+24. netsh advfirewall set allprofiles state off =  Turns off windows defender firewall 
+
+
+25. netsh advfirewall set allprofiles state on  = To turn on the windows defender firewall
+
+
+26. ping website.com  =  
+
+27. ping -t  = 
+
+28. netstat  = This will shows the details of what is connecting to our system and what are we connecting to!! 
+
+
+29. netstat -af  = Tells us what ports we have opened. 
+
+30. netstat -o = Shows you the process ID for all the connections we have made.  
+
+
+31. netstat -e -t 5  = Will provide the statistics for every 5 seconds. 
+
+
+32. route print  = This will shows the routes our computer takes to reach the connection. 
+
+33. route add 192.168.40.0 mask 255.255.255.0.10.7.1.44  =  This will allow us to customize the routing of the connection through a Specific Gateway. 
+
+
+34. route delete 
+
+35. shutdown   = Will shutdown the computer 
+
+36. shutdown /r /fw /f /t 0 = restarts system into BIOS.
+
+
+VM [ Virtual Machine ]  =  https://www.youtube.com/watch?v=wX75Z-4MEoM&t=11s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
